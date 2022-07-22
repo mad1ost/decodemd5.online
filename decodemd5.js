@@ -36,6 +36,7 @@ function main() {
 
 	void main ()
 	{
+		gl_PointSize = 1.;
 		gl_Position = vec4(2., 2., 2., 1.); // out of clip space
 
 		uvec2 gid = offset;
